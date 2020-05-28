@@ -56,7 +56,7 @@ namespace blankexample
             locallist = ListOfAllViewers;
         }
 
-        public override void onCommunitySubscription(Viewer viewer)
+        public override void onCommunitySubscription(Viewer viewer, string tier)
         {
             //I'm not actually sure what this is yet. If you figure it out tell me.
         }
@@ -84,9 +84,10 @@ namespace blankexample
             //Gets called when the Bot Disconnects from twitch
         }
 
-        public override void onGiftedSubscription(Viewer viewer)
+        public override void onGiftedSubscription(Viewer viewer, string tier)
         {
             //name says it all
+            //viewer is recipient. Tier is either Tier1, Tier2 or Tier3
         }
 
         public override void onIncorrectLogin()
@@ -97,6 +98,7 @@ namespace blankexample
         public override void onNewSubscriber(Viewer viewer, string tier)
         {
             //name says it all
+            //tiers are either: Prime, Tier1, Tier2, Tier3 or NotSet
         }
 
 
