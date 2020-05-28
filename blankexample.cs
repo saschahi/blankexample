@@ -15,6 +15,7 @@ namespace blankexample
 
 		public override void Unload()
 		{
+			ProjectT = null;
 			input = null;
 		}
 	}
