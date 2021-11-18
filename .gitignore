@@ -50,3 +50,9 @@ obj/project.nuget.cache
 obj/project.assets.json
 obj/Debug/net45/blankexample.csprojAssemblyReference.cache
 obj/blankexample.csproj.nuget.dgspec.json
+obj/Debug/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+obj/Debug/net472/blankexample.csproj.AssemblyReference.cache
+obj/Debug/net472/blankexample.GeneratedMSBuildEditorConfig.editorconfig
+obj/blankexample.csproj.nuget.g.props
+obj/blankexample.csproj.nuget.g.targets
+bin/Debug/net472/ProjectT_v0.5.5.dll
